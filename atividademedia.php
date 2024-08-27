@@ -11,10 +11,10 @@
             echo "2° nota: ".$nota2."<br>";
             echo "3° nota: ".$nota3."<br>";
             echo "4° nota: ".$nota4."<br>";
-            echo "-------------- <br>";
+            echo "------------- <br>";
             echo "Média: ";
             echo $resultado;
-            echo "<br>";
+            echo "<br>-------------<br>";
 
             if ($resultado >=7 && $resultado !=10) {
                 echo "O aluno foi aprovado!";
@@ -28,4 +28,4 @@
             else  {
                 echo "O aluno foi reprovado";
             }
-?>    
+?> 
