@@ -1,15 +1,17 @@
-<?php
-        
+<?php     
             $nota1 = 10;
             $nota2 = 10;
             $nota3 = 10;
             $nota4 = 10;
 
-
-
             $resultado = ($nota1 + $nota2 + $nota3 + $nota4) / 4;
-            echo "<br>";
-            echo "suas notas foram - 1° nota: ". $nota1. ", 2° nota: ".$nota2.", 3° nota: ".$nota3.", 4° nota: ".$nota4.".<br>";
+            
+            echo "suas notas foram:"."<br>";
+            echo "1° nota: ".$nota1."<br>";
+            echo "2° nota: ".$nota2."<br>";
+            echo "3° nota: ".$nota3."<br>";
+            echo "4° nota: ".$nota4."<br>";
+            echo "-------------- <br>";
             echo "Média: ";
             echo $resultado;
             echo "<br>";
@@ -26,4 +28,4 @@
             else  {
                 echo "O aluno foi reprovado";
             }
-        ?>     
+?>    
